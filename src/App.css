@@ -1,38 +1,570 @@
-.App {
-  text-align: center;
+.bella-olonje-logo-111-1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bella-olonje-logo-111-1-wrapper {
+  position: relative;
+  width: 206px;
+  height: 101.76px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left {
+  position: absolute;
+  top: calc(50% - 51.88px);
+  left: 70px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+.home {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.text-link {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-orangered);
+}
+.text-link,
+.text-link1 {
+  padding: var(--padding-3xs);
+}
+.desktop-menu,
+.right,
+.text-link1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desktop-menu {
+  gap: 94px;
+}
+.right {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 40px;
+}
+.desktop-navbar {
+  align-self: stretch;
+  position: relative;
+  height: 156px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.desktop-hero-light-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 619px;
+  object-fit: cover;
+}
+.food-app {
+  position: absolute;
+  top: 0;
+  left: 44.08%;
+  letter-spacing: 0.1px;
+  line-height: 36px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.why-stay-hungry {
+  margin: 0;
+  color: white;
+}
+.why-stay-hungry-container {
+  position: absolute;
+  top: 5.56%;
+  left: 3.38%;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+}
+.h1 {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 1005px;
+  height: 180px;
+  overflow: hidden;
+  font-size: 58px;
+  color: var(--light-background);
+  font-family: var(--font-poppins);
+}
+.download-the-bella {
+  position: absolute;
+  top: 10.42%;
+  left: 12.23%;
+  letter-spacing: 0.2px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.h4,
+.text-content {
+  position: absolute;
+  top: 230px;
+  left: 138.5px;
+  width: 728px;
+  height: 96px;
+  overflow: hidden;
+}
+.text-content {
+  top: 72px;
+  left: 217.5px;
+  width: 1005px;
+  height: 326px;
+  text-align: center;
+  color: var(--color-whitesmoke);
+}
+.app-store {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  color: white;
+  border-radius: 30px;
+  border: 1px solid #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+.play-store {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  color: white;
+  background: #FA4A0C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  width: 150px;
+}
+.text-button {
+  position: relative;
+  width: 119px;
+  height: 36px;
+}
+.master-button {
+  border-radius: var(--br-11xl);
+  border: 1px solid var(--light-background);
+  box-sizing: border-box;
+  width: 236px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0;
+}
+.big-button {
+  position: absolute;
+  top: 404px;
+  left: 791px;
+}
+.big-button,
+.big-button1,
+.master-button1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.master-button1 {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-orangered);
+  box-shadow: 0 10px 30px rgba(183, 50, 39, 0.2);
+  width: 236px;
+  overflow: hidden;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+}
+.big-button1 {
+  position: absolute;
+  top: 404px;
+  left: 521px;
+}
+.desktop-hero-light-1 {
+  align-self: stretch;
+  position: relative;
+  height: 674px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--light-background);
+}
+.desktop-header-light-7 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: var(--light-background);
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--button-size);
+  color: var(--dark-background);
+}
+.rectangle-icon,
+.rectangle-icon1 {
+  position: absolute;
+  top: 109px;
+  left: 263px;
+  width: 285px;
+  height: 531px;
+  object-fit: cover;
+}
+.rectangle-icon1 {
+  top: -120px;
+  left: -100px;
+  width: 599px;
+  height: 886px;
+}
+.hr,
+.rectangle-parent {
+  position: absolute;
+  top: 610px;
+  left: 446px;
+  width: 548px;
+  height: 640px;
+}
+.hr {
+  top: 1377.41px;
+  left: 276.5px;
+  border-top: 3px solid #e4e4e4;
+  box-sizing: border-box;
+  width: 887px;
+  height: 3px;
+}
+.create-an-account {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+}
+.h3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.createlogin-to-an-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+}
+.h2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  font-size: var(--h2-size);
+  color: var(--dark-background);
+}
+.an-account-is-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.h41,
+.text-content-wrapper,
+.text-content1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.h41 {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) 0;
+  color: var(--second-text1);
+}
+.text-content-wrapper,
+.text-content1 {
+  width: 568px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-content1 {
+  gap: var(--gap-6xs);
+}
+.text-content-wrapper {
+  position: absolute;
+  top: 83px;
+  left: 1000.58px;
+}
+.content {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 1002.59px);
+  width: 1640.59px;
+  height: 506.99px;
+}
+.rectangle-icon2 {
+  position: absolute;
+  top: -42px;
+  left: 145px;
+  width: 602px;
+  height: 825px;
+  object-fit: cover;
+}
+.desktop-hero-light-5 {
+  position: absolute;
+  top: 1546px;
+  left: 0;
+  background-color: var(--light-background);
+  width: 1440px;
+  height: 806.99px;
+}
+.rectangle-icon3 {
+  position: absolute;
+  top: -39px;
+  left: 145px;
+  width: 578px;
+  height: 811px;
+  object-fit: cover;
+}
+.desktop-hero-light-10 {
+  position: absolute;
+  top: 2935px;
+  left: 0;
+  background-color: var(--light-background);
+  width: 1440px;
+  height: 806.99px;
+}
+.text-content-frame {
+  position: absolute;
+  top: 88px;
+  left: 536.58px;
+  width: 568px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-icon4 {
+  position: absolute;
+  top: -42px;
+  left: 839px;
+  width: 569px;
+  height: 825px;
+  object-fit: cover;
+}
+.desktop-hero-light-9 {
+  position: absolute;
+  top: 2202px;
+  left: 0;
+  background-color: var(--light-background);
+  width: 1440px;
+  height: 806.99px;
+}
+.desktop-hero-light-8-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 516px;
+  object-fit: cover;
+}
+.h44,
+.text-content4 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h44 {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--h4-size);
+}
+.text-content4 {
+  position: absolute;
+  top: 130px;
+  left: 290px;
+  flex-direction: column;
+}
+.playstore1 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.text-button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button,
+.second-button {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+.second-button {
+  background-color: var(--color-orangered);
+  display: flex;
+  justify-content: flex-start;
+  padding: 18px 31px;
+}
+.button {
+  border: 1px solid var(--light-background);
+  padding: var(--padding-base) 45px;
+}
+.action-content,
+.button,
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttons {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.action-content {
+  position: absolute;
+  top: 315px;
+  left: 554.5px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--button-size);
+}
+.desktop-hero-light-8 {
+  position: absolute;
+  top: 3689.9px;
+  left: 0;
+  background-color: var(--dark-background);
+  width: 1440px;
+  height: 509px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--light-background);
+}
+.image-12-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 246px;
+  height: 102px;
+  object-fit: cover;
+}
+.content-logo-light {
+  position: absolute;
+  top: calc(50% - 38.5px);
+  left: 91.5px;
+  width: 206px;
+  height: 78px;
+  overflow: hidden;
+}
+.copywright-2020-bella {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+}
+.subtitle {
+  position: absolute;
+  top: calc(50% - 2.5px);
+  right: 35px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.ant-designtwitter-outlined-icon {
+  position: relative;
+  width: 40.99px;
+  height: 40.99px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-media {
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: calc(50% - 85px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.desktop-footer-light-2,
+.instagram-icon {
+  position: absolute;
+  top: 47.1px;
+  left: 650px;
+  width: 39px;
+  height: 39px;
+  overflow: hidden;
+}
+.desktop-footer-light-2 {
+  top: 4236.9px;
+  left: 115px;
+  background-color: var(--light-background);
+  width: 1210px;
+  height: 133px;
+  text-align: right;
+  font-size: var(--subtitle-size);
+  color: var(--second-text);
+  font-family: var(--subtitle);
+}
+.how-the-app {
+  position: absolute;
+  top: 1451px;
+  left: 495px;
+  font-size: 44px;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: #000;
+  opacity: 0.8;
+}
+.desktop-5 {
+  position: relative;
+  background-color: var(--light-background);
+  width: 100%;
+  height: 4423px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--color-orangered);
+  font-family: var(--button);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
