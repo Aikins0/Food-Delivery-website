@@ -9,9 +9,11 @@ import Rectangle47 from './assets/Rectangle47.png';
 import Rectangle2 from './assets/Rectangle2.png';
 import Rectangle3 from './assets/Rectangle3.png';
 import Rectangle4 from './assets/Rectangle4.png';
+import facebook from './assets/facebook.svg';
+import instagram from './assets/instagram.png';
+import twitter from './assets/twitter.svg';
 
-
-const Desktop5 = () => {
+const App = () => {
   return (
     <div className="desktop-5">
       <div className="desktop-header-light-7">
@@ -60,7 +62,7 @@ const Desktop5 = () => {
             </div>
             <div className="h4">
               <div className="download-the-bella">
-                Download the bella onoje’s food app now on
+                Download the bella onoje's food app now on
               </div>
             </div>
           </div>
@@ -94,16 +96,16 @@ const Desktop5 = () => {
               </div>
               <div className="h2">
                 <b className="createlogin-to-an-container">
-                  <p className="why-stay-hungry">Create/login to an existing</p>
-                  <p className="why-stay-hungry">account to get started</p>
+                  <p className="why-stay-hungry1">Create/login to an existing</p>
+                  <p className="why-stay-hungry1">account to get started</p>
                 </b>
               </div>
               <div className="h41">
                 <div className="an-account-is-container">
-                  <p className="why-stay-hungry">
+                  <p className="why-stay-hungry1">
                     An account is created with your email
                   </p>
-                  <p className="why-stay-hungry">and a desired password</p>
+                  <p className="why-stay-hungry1">and a desired password</p>
                 </div>
               </div>
             </div>
@@ -120,14 +122,14 @@ const Desktop5 = () => {
               </div>
               <div className="h2">
                 <b className="createlogin-to-an-container">
-                  <p className="why-stay-hungry">When you done check out</p>
-                  <p className="why-stay-hungry">and get it delivered.</p>
+                  <p className="why-stay-hungry1">When you done check out</p>
+                  <p className="why-stay-hungry1">and get it delivered.</p>
                 </b>
               </div>
               <div className="h41">
                 <div className="an-account-is-container">
-                  <p className="why-stay-hungry">{`When you done check out and get it `}</p>
-                  <p className="why-stay-hungry">delivered with ease.</p>
+                  <p className="why-stay-hungry1">{`When you done check out and get it `}</p>
+                  <p className="why-stay-hungry1">delivered with ease.</p>
                 </div>
               </div>
             </div>
@@ -144,16 +146,16 @@ const Desktop5 = () => {
               </div>
               <div className="h2">
                 <b className="createlogin-to-an-container">
-                  <p className="why-stay-hungry">Shop for your favorites</p>
-                  <p className="why-stay-hungry">meal as e dey hot.</p>
+                  <p className="why-stay-hungry1">Shop for your favorites</p>
+                  <p className="why-stay-hungry1">meal as e dey hot.</p>
                 </b>
               </div>
               <div className="h41">
                 <div className="an-account-is-container">
-                  <p className="why-stay-hungry">
+                  <p className="why-stay-hungry1">
                     Shop for your favorite meals or drinks
                   </p>
-                  <p className="why-stay-hungry">and enjoy while doing it.</p>
+                  <p className="why-stay-hungry1">and enjoy while doing it.</p>
                 </div>
               </div>
             </div>
@@ -187,7 +189,7 @@ const Desktop5 = () => {
             </div>
             <div className="button">
               <div className="text-button2">
-                <b className="playstore1">App store</b>
+                <b className="appstore1">App store</b>
               </div>
             </div>
           </div>
@@ -199,28 +201,28 @@ const Desktop5 = () => {
         </div>
         <div className="subtitle">
           <b className="copywright-2020-bella">
-            Copywright 2020 Bella Onojie.com
+            Copyright 2024 Daniel Aikins
           </b>
         </div>
         <div className="social-media">
           <img
             className="ant-designtwitter-outlined-icon"
             alt=""
-            src="/antdesigntwitteroutlined.svg"
+            src={twitter}
           />
           <img
             className="ant-designtwitter-outlined-icon"
             alt=""
-            src="/antdesignfacebookfilled.svg"
+            src={facebook}
           />
           <div className="ant-designtwitter-outlined-icon" />
         </div>
-        <img className="instagram-icon" alt="" src="/instagram.svg" />
+        <img className="instagram-icon" alt="" src={instagram} />
       </div>
       <div className="how-the-app">How the app works</div>
     </div>
   );
 };
 
-export default Desktop5;
+export default App;
 
